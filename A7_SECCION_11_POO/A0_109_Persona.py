@@ -14,9 +14,13 @@ class Persona:
                   apellido: {self._apellido} 
                   edad : {self._edad}''')
 
+    #111 - DESTRUCTOR
+    def __del__(self):                  
+        print(f'Persona eliminada: {self._nombre} {self._apellido}')                      #SE MUESTRAN LOS DATOS DEL OBJ Q SE ESTÁ ELIMINANDO.   
+    
     
     #get
-    @property                                                #CON PROPERTY SOLO SE PUEDE ACCEDER A LA VARIABLE CON EL METODO GET
+    @property                                                                   #CON PROPERTY SOLO SE PUEDE ACCEDER A LA VARIABLE CON EL METODO GET.
     def nombre(self):
         return self._nombre
 

@@ -1,0 +1,11 @@
+from DispositivoDeEntrada import DispositivoDeEntrada
+
+class Raton(DispositivoDeEntrada):
+
+    def __init__(self, idRaton) -> None:
+        Raton.contadorRatones += 1
+        self._idRaton = Raton.contadorRatones
+    
+    def __str__(self) -> str:
+        return f'Ratón: [Id: {self._idRaton}]'
+

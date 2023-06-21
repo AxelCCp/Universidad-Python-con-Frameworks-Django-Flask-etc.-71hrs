@@ -1,21 +1,23 @@
 from DispositivoDeEntrada import DispositivoDeEntrada
 
-class Teclado(DispositivoDeEntrada):
+class Raton(DispositivoDeEntrada):
 
-    contadorTeclados = 0
+    contadorRatones = 0
 
     def __init__(self, tipoEntrada, marca, tipo) -> None:
-        Teclado.contadorTeclados += 1
-        self.__idTeclado = Teclado.contadorTeclados
+        Raton.contadorRatones += 1
+        self.__idRaton = Raton.contadorRatones
         super().__init__(marca, tipoEntrada)
         self.__tipo = tipo
-
-    def __str__(self) -> str:
-        return f'Teclado: [id: {self.__idTeclado}] {super().__str__()} [tipo: {self.__tipo}] '
+        
     
+    def __str__(self) -> str:
+        return f'Ratón: [Id: {self.__idRaton}]  {super().__str__()}  [tipo: {self.__tipo}]'
+    
+
     @property
-    def idTeclado(self):
-        return self.__idTeclado
+    def idRaton(self):
+        return self.__idRaton
     
     @property
     def tipo(self):
@@ -27,9 +29,6 @@ class Teclado(DispositivoDeEntrada):
 
 if __name__ == '__main__':
 
-    teclado1 = Teclado('msi', 'cable', 'gamer')
-    print(teclado1)
+    raton1 = Raton('usb', 'msi', 'vertical')
+    print(raton1)
 
-
-    
-    

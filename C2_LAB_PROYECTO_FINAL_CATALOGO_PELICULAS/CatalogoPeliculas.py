@@ -1,18 +1,30 @@
 class CatalogoPeliculas:
 
+    rutaArchivo = ""
+    listaPeliculas = []
+
     def __init__(self, rutaArchivo):
-        self.__rutaArchivo = rutaArchivo
-    
-    @property
-    def lista(self):
-        return self.__lista
-    
-    def agregarPelicula(self, pelicula):
-        self.__lista.append(pelicula) 
+        CatalogoPeliculas.rutaArchivo = rutaArchivo
+        #self.__pelicula = pelicula
 
+    @staticmethod
+    def listarPeliculas():
+        peliculas_str = ''
+        for p in CatalogoPeliculas.listaPeliculas:
+            peliculas_str += ' ' + p.__str__()
+        return f'''
+        Lista de películas: {peliculas_str}
+        '''
+    
+    @staticmethod
+    def agregarPelicula(pelicula):
+        CatalogoPeliculas.listaPeliculas.append(pelicula) 
 
-    def eliminarPelicula(self, pelicula):
-        self.__lista.remove(pelicula)
+    @staticmethod
+    def eliminarPelicula(pelicula):
+        for p in CatalogoPeliculas.listaPeliculas:
+            if p.nombre == pelicula:
+                CatalogoPeliculas.listaPeliculas.remove(p)
 
     
     

@@ -1,0 +1,74 @@
+06:00:23 PM: DEBUG [Conexion.py: 26] conexión  exitosa: <connection object at 0x00000209D3715AD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:00:23 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 3, 
+            nombre: Rey,
+            apellido: Pilaf,
+            email: reypilaf@mail.com
+        
+06:00:23 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 6, 
+            nombre: Up,
+            apellido: ...,
+            email: up@boo.jp
+        
+06:00:23 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 8, 
+            nombre: Majin,
+            apellido: Boo,
+            email: boo@boo.jp
+        
+06:00:23 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 9, 
+            nombre: Androide,
+            apellido: 18,
+            email: 18@18.jp
+        
+06:00:23 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 10, 
+            nombre: Androide,
+            apellido: 16,
+            email: 16@16.jp
+        
+06:00:23 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 12, 
+            nombre: Maron,
+            apellido: ...,
+            email: maron@mail.jp
+        
+06:00:49 PM: DEBUG [Conexion.py: 26] conexión  exitosa: <connection object at 0x0000013C466A5AD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:00:49 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 3, 
+            nombre: Rey,
+            apellido: Pilaf,
+            email: reypilaf@mail.com
+        
+06:00:49 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 6, 
+            nombre: Up,
+            apellido: ...,
+            email: up@boo.jp
+        
+06:00:49 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 8, 
+            nombre: Majin,
+            apellido: Boo,
+            email: boo@boo.jp
+        
+06:00:49 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 9, 
+            nombre: Androide,
+            apellido: 18,
+            email: 18@18.jp
+        
+06:00:49 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 10, 
+            nombre: Androide,
+            apellido: 16,
+            email: 16@16.jp
+        
+06:00:49 PM: DEBUG [Persona_dao.py: 79] 
+            id persona: 12, 
+            nombre: Maron,
+            apellido: ...,
+            email: maron@mail.jp
+        

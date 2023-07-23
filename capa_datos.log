@@ -763,3 +763,19 @@ LINE 1: update usuario set username='Bulma', password='capsuleCorp' ...
 05:51:48 PM: DEBUG [Principal.py: 40] Usuario => id: 3 username: Bra password: ajhsxb
 05:51:48 PM: DEBUG [Principal.py: 40] Usuario => id: 5 username: Bulma password: capCorp
 05:51:48 PM: DEBUG [Principal.py: 40] Usuario => id: 6 username: Bean password: 1234567
+08:35:11 PM: DEBUG [CursorPool.py: 14] Inicio del metodo with __enter__
+08:35:11 PM: DEBUG [Conexion.py: 27] Creación exitosa del pool: <psycopg2.pool.SimpleConnectionPool object at 0x00000197E25DE750>
+08:35:11 PM: DEBUG [Conexion.py: 39] Conexion obtenida del pool: <connection object at 0x00000197E4384BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:35:11 PM: DEBUG [CursorPool.py: 21] se ejecuta metodo __exit__
+08:35:11 PM: DEBUG [CursorPool.py: 27] Commit de la transaccion
+08:35:11 PM: DEBUG [Conexion.py: 45] Regresamos la conexión al pool: <connection object at 0x00000197E4384BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:35:11 PM: DEBUG [Principal.py: 40] Usuario => id: 1 username: puar password: asdasdas
+08:35:11 PM: DEBUG [Principal.py: 40] Usuario => id: 3 username: Bra password: ajhsxb
+08:35:11 PM: DEBUG [Principal.py: 40] Usuario => id: 5 username: Bulma password: capCorp
+08:35:11 PM: DEBUG [Principal.py: 40] Usuario => id: 6 username: Bean password: 1234567
+08:35:31 PM: DEBUG [CursorPool.py: 14] Inicio del metodo with __enter__
+08:35:31 PM: DEBUG [Conexion.py: 39] Conexion obtenida del pool: <connection object at 0x00000197E4384BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:35:31 PM: DEBUG [UsuarioDao.py: 45] Usuario eliminado: Usuario => id: 3 username: None password: None
+08:35:31 PM: DEBUG [CursorPool.py: 21] se ejecuta metodo __exit__
+08:35:31 PM: DEBUG [CursorPool.py: 27] Commit de la transaccion
+08:35:31 PM: DEBUG [Conexion.py: 45] Regresamos la conexión al pool: <connection object at 0x00000197E4384BF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
